@@ -14,19 +14,19 @@ export default function Banner() {
         </div>
         <div className="image-logo flex w-full items-center justify-around flex-wrap">
           <div className="w-[300px] h-[300px] flex justify-center items-center">
-            <img src={BuahBibir} alt="" className="w-[70%]" />
+            <img src={BuahBibir} alt="" className="w-[70%] hover:w-[80%] duration-200" />
           </div>
 
           <div className="w-[300px] h-[300px] flex justify-center items-center">
-            <img src={BuahLogo} alt="" className="w-[60%]" />
+            <img src={BuahLogo} alt="" className="w-[60%] hover:w-[65%] duration-200" />
           </div>
 
           <div className="w-[300px] h-[300px] flex justify-center items-center">
-            <img src={Cinetix} alt="" className="w-[80%]" />
+            <img src={Cinetix} alt="" className="w-[80%] hover:w-[90%] duration-200" />
           </div>
 
           <div className="w-[300px] h-[300px] flex justify-center items-center">
-            <img src={FirePost} alt="" className="w-[70%]" />
+            <img src={FirePost} alt="" className="w-[70%] hover:w-[80%] duration-200" />
           </div>
 
         </div>
